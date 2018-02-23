@@ -1,3 +1,3 @@
 n=int(raw_input())
-string='hello\n'
+string='Hello\n'
 print(string*n)
