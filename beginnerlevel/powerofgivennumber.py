@@ -1,3 +1,3 @@
 num=int(input())
-power=2
+power=int(input())
 print(num**2)
