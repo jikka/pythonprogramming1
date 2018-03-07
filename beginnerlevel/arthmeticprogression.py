@@ -1,0 +1,5 @@
+a=int(input())
+d=int(input())
+n=int(input())
+d=((n/2)*(a+d))
+print(d)
