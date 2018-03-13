@@ -1,4 +1,7 @@
-string=str(input(''))
-for x in string
-  print(x)
- 
+string=input("")
+char=0
+for i in string:
+  if i==' ':
+    continue
+  char=char+1
+print(char)
