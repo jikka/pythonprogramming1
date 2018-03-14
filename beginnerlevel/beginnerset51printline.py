@@ -1,4 +1,3 @@
-a=intput()
+a=input()
 b=int(input())
-for x in range(1,b+1):
-  print(a*
+print((\n)a*b))
