@@ -1,4 +1,3 @@
-
 string1=str(input(""))
 string2=str(input(""))
 count1=0
