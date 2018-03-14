@@ -1,14 +1,8 @@
-list[]
+lis=[]
 num=int(input())
-if(n<=10000):
-   for x in range(num):
-       numbers=int(input())
-       list.append(numbers)
-       
-   Print(max.list())
-   Print(min.list())
-       
-       
- 
-      
-    
+if(num<=10000):
+  for x in range(num):
+    numbers=int(input())
+    lis.append(numbers)
+  print(max(lis))
+  print(min(lis))
