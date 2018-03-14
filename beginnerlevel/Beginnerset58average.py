@@ -1,8 +1,8 @@
-Count=int(input())
-Sum=o
+count=int(input())
+sum=0
 for x in range(count):
     number=int(input())
-    Sum=sum+number
+    sum=sum+number
 avg=sum/count  
 print(avg)
     
