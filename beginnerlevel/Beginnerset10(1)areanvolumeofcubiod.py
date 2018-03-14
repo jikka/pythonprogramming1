@@ -1,0 +1,7 @@
+L=int(input()
+B=int(input())
+H=int(input())
+sa=2(LB+BH+LH)
+print(sa)
+volume=(L*B*H)
+print(volume)
