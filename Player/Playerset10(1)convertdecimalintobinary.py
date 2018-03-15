@@ -1,2 +1,3 @@
 dec=int(input())
-print(bin(dec))
+if(dec<=100000): 
+  print(bin(dec))
