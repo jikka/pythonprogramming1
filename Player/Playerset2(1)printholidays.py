@@ -1,5 +1,5 @@
 day=str(input())
 if(day=='monday' or day=='tuesday' or day=='wednesday' or day=='thursday' or day=='friday' ):
   print('no')
-else
+else:
   print('yes')
