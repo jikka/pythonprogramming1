@@ -1,2 +1,2 @@
 a=float(input())
-print(a+273.15)
+print(a+273)
