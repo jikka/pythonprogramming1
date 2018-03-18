@@ -1,5 +1,5 @@
 string=str(input(''))
-if(string=='a' and string=='A'):
+if(string=='a' or string=='A'):
   print('Alphabet')
 else:
   print('no')
