@@ -1,2 +1,2 @@
-string=str)input())
-print(append.(string)+'.'
+string=str(input(''))
+print((string)+'.')
