@@ -1,3 +1,3 @@
-a=inr(input())
-b=int(input())
-print(a~b)
+n=int(input())
+k=int(input())
+print(str(n)+str(k))
