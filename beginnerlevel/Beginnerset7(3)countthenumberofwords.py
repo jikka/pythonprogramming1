@@ -1,6 +1,6 @@
-string=str(input(""))
+s=str(input(''))
 word=1
-for i in string:
+for i in s:
   if(i==' '):
     word=word+1
 print(word)
