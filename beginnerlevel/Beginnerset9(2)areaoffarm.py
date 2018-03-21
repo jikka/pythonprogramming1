@@ -1,4 +1,4 @@
 L=float(input())
 B=float(input())
-area=L*B
+area=(L*B)
 print(area)
