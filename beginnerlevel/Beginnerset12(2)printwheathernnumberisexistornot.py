@@ -1,8 +1,8 @@
-n=int(input())
-k=int(input())
-for x in range(0,n+1):
+N=int(input())
+K=int(input())
+for x in (N):
   num=int(input())
-  if(num==k):
+  if(num==K):
     print('yes')
   else:
     print('no')
