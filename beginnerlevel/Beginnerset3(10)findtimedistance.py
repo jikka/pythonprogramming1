@@ -1,0 +1,10 @@
+time1=int(input())
+time2=int(input())
+if(time2<time1):
+  time2=time2+2360
+  diff=time2-time1
+  hour=diff//100
+  min=diff%100
+  hour=hour+min//60
+  min=min%60
+print(hour,min)
