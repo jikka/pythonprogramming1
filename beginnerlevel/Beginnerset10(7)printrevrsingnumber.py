@@ -1,9 +1,8 @@
 num=int(input())
-temp=num
 rev=0
 if(num<=1000):
   while(num>0):
-    r=temp//10
+    r=num%10
     rev=rev*10+r
-    temp=temp/10
-  print(temp)
+    num=num//10
+print(rev)
