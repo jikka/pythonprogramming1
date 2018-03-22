@@ -1,4 +1,5 @@
 L=float(input())
 B=float(input())
 area=(L*B)
-print(area)
+a='%.5f' %area
+print(a)
