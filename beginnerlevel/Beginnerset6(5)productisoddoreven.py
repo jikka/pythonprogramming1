@@ -1,0 +1,10 @@
+try:
+  N=int(input())
+  M=int(input())
+  product=N*M
+  if(product%2==0):
+    print('even')
+  else:
+    print('odd')
+except:
+  print('invalid')
