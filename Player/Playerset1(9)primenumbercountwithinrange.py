@@ -9,5 +9,3 @@ if(l<=r<=100000):
           count+=1
           break
 print(count)
-    
-          
