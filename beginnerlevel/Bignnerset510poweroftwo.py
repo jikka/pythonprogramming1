@@ -1,3 +1,14 @@
-def IsPowerOfTwo(x)
-x=int(input())
-IsPowerOfTwo()
+try:
+  x=int(input())
+  f=0
+  while(x!=0):
+    x=x/2
+    if(x==1):
+      f=1
+      break
+  if(f!=1):
+    print('no')
+  else:
+    print('yes')
+except:
+  print('invalid')
