@@ -1,7 +1,0 @@
-string=str(input())
-try:
-  i=float(string)
-  print('yes')
-expect(valuseError,TypeError):
-  print('no')
-  
