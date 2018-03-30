@@ -2,7 +2,7 @@
 	li.sort()
 	rep=[]
 	=len(li)
-	for i in range(1,N):
+	for i in range(1,n):
 			if li[i]==li[i-1] :
 				if li[i] in rep :
 					continue
@@ -15,7 +15,7 @@ def main():
 		=int(input())
 		for i in range(N):
 			li.append(int(input()))
-		findrepn(li)
+		findrepeat(li)
 	except:
 		print('invalid')
 
