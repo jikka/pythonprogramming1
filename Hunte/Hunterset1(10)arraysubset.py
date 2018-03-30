@@ -3,7 +3,7 @@ Try:
   M=int(input())
   A,B=[],[]
   f=0
-  if(1<=N<=10000):
+  if(1<=N<=100000):
     for i in range(N):
       A.append(int(intput()))
     for i in range(M):
