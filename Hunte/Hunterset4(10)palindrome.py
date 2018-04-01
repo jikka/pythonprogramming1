@@ -1,0 +1,21 @@
+try:
+  N=int(input())
+  sum=0
+  rev=0
+  if(2<=N<=1000000000000000000):
+    while(N>2):
+      rem=N%10
+      sum+=rem
+      N=N//10
+  print(sum)
+  for i in range(sum):
+    while(sum>0):
+      dig=sum%10
+      rev=rev*10+dig
+      sum=sum//10
+  if(rev==sum):
+    print('yes')
+  else:
+    print('no')
+except:
+  print('Invalid')
