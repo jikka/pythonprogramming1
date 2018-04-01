@@ -8,11 +8,11 @@ try:
       sum+=rem
       N=N//10
   print(sum)
-  for i in range(sum):
-    while(sum>0):
-      dig=sum%10
-      rev=rev*10+dig
-      sum=sum//10
+  while(sum>0):
+    dig=sum%10
+    rev=rev*10+dig
+    sum=sum//10
+  print(rev)
   if(rev==sum):
     print('yes')
   else:
