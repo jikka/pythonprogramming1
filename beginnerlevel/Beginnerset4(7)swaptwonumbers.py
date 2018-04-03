@@ -6,4 +6,3 @@ if (a<=100000 and b<=100000):
   a=b
   b=temp
   print(a,b)
-  
