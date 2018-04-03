@@ -1,5 +1,8 @@
-list[]
-for x in range(1,10):
-    n=int(input())
-    list.apprend()
-print(list.max())   
+try:
+    ls=[]
+    for x in range(1,10):
+        n=int(input())
+        ls.apprend(n)
+    print(max(ls))
+except:
+    print('invalid')
