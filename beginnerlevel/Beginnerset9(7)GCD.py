@@ -1,0 +1,10 @@
+try:
+  x=int(input())
+  y=int(input())
+  while(y!=0):
+    t=y
+    x=x%y
+    x=t
+    print(x)
+except:
+  print('Invalid')  
