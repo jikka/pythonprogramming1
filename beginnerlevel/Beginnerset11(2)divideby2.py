@@ -1,0 +1,11 @@
+try:
+  N=int(input())
+  if(1<=N<=10):
+    while(N>0):
+      if(N%2==0):
+        N=N//2
+      else:
+        print(N)
+        break
+except:
+  print('Invalid')         
