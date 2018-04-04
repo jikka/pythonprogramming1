@@ -1,3 +1,3 @@
-number=int(input())
-char=number+64
+N=int(input())
+char=N+64
 print(chr(char))
