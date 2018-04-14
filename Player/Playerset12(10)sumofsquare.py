@@ -1,10 +1,9 @@
 try:
   a=int(input())
-  sum=0
-  while(a>0):
-    x=a%10
-    sum+=x
-    x=x//10
-  print(sum*sum)
+  x=a%10
+  pro=(x*x)
+  y=a//10
+  duct=(y*y)
+  print(pro+duct)
 except:
   print('invalid')
