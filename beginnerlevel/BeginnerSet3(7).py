@@ -1,5 +1,5 @@
 s=str(input(''))
-if(s.isalpha()):
-  print('no')
-else:
+if(s.isnumeric()):
   print('yes')
+else:
+  print('no')
