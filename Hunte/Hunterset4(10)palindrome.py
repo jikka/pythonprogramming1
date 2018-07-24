@@ -1,19 +1,13 @@
 try:
   N=int(input())
-  sum=0
-  rev=0
+  s=0
+  tmp=N
   if(2<=N<=1000000000000000000):
-    while(N>2):
+    while(N>0):
       rem=N%10
-      sum+=rem
-      N=N//10
-  print(sum)
-  while(sum>0):
-    dig=sum%10
-    rev=rev*10+dig
-    sum=sum//10
-  print(rev)
-  if(rev==sum):
+      s=s*10+rem
+      N=int(N/10)
+  if s==tmp:
     print('yes')
   else:
     print('no')
